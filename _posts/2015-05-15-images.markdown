@@ -1,30 +1,14 @@
 ---
 layout: post
-title:  a post with images
-date: 2015-05-15 21:01:00
-description: this is what included images could look like
+title:  EliteForsk travel grant
+date: 2019-02-28 13:00:00
+description: EliteForsk travel grant
 ---
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Fingerstache four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch.
+It is with great honor and privilege to announce that I today received the EliteForsk travel grant. The Elite Research Travel Grant is DKK 200,000 and helps very talented PhD students to perform longer-term studies in some of the best research environments in the world. The prize was handed to me by her Royal Highness Crown Princess Mary of Denmark and the Danish Minister of Science, Technology, Information and Higher Education Tommy Ahlers.
 
 <div class="img_row">
-    <img class="col three" src="{{ site.baseurl }}/assets/img/9.jpg">
-</div>
-<div class="img_row">
-    <img class="col three" src="{{ site.baseurl }}/assets/img/7.jpg">
-</div>
-<div class="col three caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
-</div>
-<div class="img_row">
-    <img class="col two first" src="{{ site.baseurl }}/assets/img/8.jpg">
-    <img class="col one last" src="{{ site.baseurl }}/assets/img/10.jpg">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/eliteforsk1.jpeg">
 </div>
 
-Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally trust fund Pitchfork. Jean shorts Pinterest beard, farm-to-table irony craft beer swag tofu 8-bit Banksy. Quinoa forage fanny pack, pug hashtag Echo Park heirloom Schlitz tote bag artisan Neutra mumblecore 90's shabby chic raw denim.
+You can find a article and video about my research [here](https://www.sdu.dk/da/om_sdu/fakulteterne/teknik/nyt_fra_det_tekniske_fakultet/forskerudviklerrobotinsekt) and here [here](https://ufm.dk/forskning-og-innovation/forskningsformidling/eliteforsk/prismodtagere/prismodtagere-2019/eliteforsk-rejsestipendierne-2019/mathias-thor) (both in danish).
 
-
-<div class="img_row">
-    <img class="col one first" src="{{ site.baseurl }}/assets/img/11.jpg">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/12.jpg">
-    <img class="col one last" src="{{ site.baseurl }}/assets/img/7.jpg">
-</div>
