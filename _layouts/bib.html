@@ -43,40 +43,52 @@
 
     <span class="periodical">
     {% if entry.type == "article" %}
-      <em>{{entry.journal}}</em>
+      <>{{entry.journal}}</em>
     {% elsif entry.type == "inproceedings" %}
       <em>In {{entry.booktitle}}</em>
     {% endif %}
     {% if entry.year %}
       {{entry.year}}
     {% endif %}
+
     </span>
   {% endif %}
 
-  <span class="links">
+
+
+  <span class="publication-links">
   {% if entry.abstract %}
-    [<a class="abstract">Abs</a>]
-  {% endif %}
-  {% if entry.arxiv %}
-    [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
+    <a class="abstract">Abstract</a>
   {% endif %}
   {% if entry.html %}
-    [<a href="{{ entry.html }}" target="_blank">HTML</a>]
+    <a href="{{ entry.html }}" target="_blank">HTML</a>
   {% endif %}
   {% if entry.pdf %}
-    [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
+    <a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>
   {% endif %}
   {% if entry.supp %}
-    [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>]
+    <a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supplementary</a>
+  {% endif %}
+  {% if entry.addendum %}
+    <a href="{{ entry.addendum | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Addendum</a>
   {% endif %}
   {% if entry.poster %}
-    [<a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Poster</a>]
+    <a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Poster</a>
   {% endif %}
   {% if entry.slides %}
-    [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>]
+    <a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>
   {% endif %}
   {% if entry.code %}
-    [<a href="{{ entry.code }}" target="_blank">Code</a>]
+    <a href="{{ entry.code }}" target="_blank">Code</a>
+  {% endif %}
+  {% if entry.arxiv %}
+    <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>
+  {% endif %}
+
+  {% if entry.bestp %}
+	<em class="Best Paper Award">
+	  <em style="color:#ff6666"> &#160; <i class="fas fa-trophy"></i> {{ entry.bestp }} </em>
+	</em>
   {% endif %}
   </span>
 
@@ -87,10 +99,4 @@
   </span>
   {% endif %}
 
-
-  {% if entry.bestp %}
-  <span class="Best Paper Award">
-    <p><i class="fas fa-trophy"></i> {{ entry.bestp }}</p> 
-  </span>
-  {% endif %}
 </div>
