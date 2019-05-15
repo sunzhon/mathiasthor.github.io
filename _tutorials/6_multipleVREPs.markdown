@@ -1,7 +1,7 @@
 ---
 layout: page
-title: V-REP Getting started
+title: Multiple V-REP instances
 img: /assets/img/vrep.jpg
 ---
 
-To be written
+To be written.

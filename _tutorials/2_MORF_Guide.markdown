@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MORF Guide
+title: MORF User guide
 img: /assets/img/morf.png
 ---
 

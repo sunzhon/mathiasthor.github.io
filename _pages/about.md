@@ -12,13 +12,13 @@ news: true
 social: true
 ---
 
-I am currently pursuing a PhD degree with [SDU Embodied Systems for Robotics and Learning](https://www.sdu.dk/en/om_sdu/institutter_centre/embodied+systems+for+robotics+and+learning){:target="_blank"} at [University of Southern Denmark](https://www.sdu.dk/en){:target="_blank"}, supervised by Prof. [Poramate Manoonpong](http://www.manoonpong.com/){:target="_blank"}.
+I am currently pursuing a Ph.D. degree with [SDU Embodied Systems for Robotics and Learning](https://www.sdu.dk/en/om_sdu/institutter_centre/embodied+systems+for+robotics+and+learning){:target="_blank"} at [University of Southern Denmark](https://www.sdu.dk/en){:target="_blank"}, supervised by Prof. [Poramate Manoonpong](http://www.manoonpong.com/){:target="_blank"}.
 
-My PhD research focuses on developing....
+My Ph.D. research focuses on developing...
 
-Before starting my PhD, I graduated as an MSc in Robot Systems the [University of Southern Denmark](https://www.sdu.dk/en){:target="_blank"}. In my Master’s thesis I developed a Modular Robot Framework called MORF. The primary aim of MORF was for it to be easy and convenient to use, such that researchers can focus more on the locomotion controller of the robot and not the hardware.
+Before starting my Ph.D., I graduated as an MSc in Robot Systems the [University of Southern Denmark](https://www.sdu.dk/en){:target="_blank"}. In my Master’s thesis, I developed a Modular Robot Framework called MORF. The primary aim of MORF was for it to be easy and convenient to use, such that researchers can focus more on the locomotion controller of the robot and not the hardware.
 
-<!--My current research interests include neural locomotion control of walking machines, learning/plasticity, dynamic simulations, and design of legged robotic systems including their software interface.--> 
+<!--My current research interests include neural locomotion control of walking machines, learning/plasticity, dynamic simulations, and design of legged robotic systems including their software interface.-->
 
 
 
