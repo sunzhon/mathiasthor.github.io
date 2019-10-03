@@ -61,10 +61,10 @@
     <a class="abstract">Abstract</a>
   {% endif %}
   {% if entry.html %}
-    <a href="{{ entry.html }}" target="_blank">HTML</a>
+    [<a href="{{ entry.html }}" target="_blank">HTML</a>]
   {% endif %}
   {% if entry.pdf %}
-    <a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>
+    [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
   {% endif %}
   {% if entry.supp %}
     <a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supplementary</a>
@@ -84,7 +84,12 @@
   {% if entry.arxiv %}
     <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>
   {% endif %}
-
+  {% if entry.journalpaper %}
+    <em style="color:#bb85ff"> &#160; <i class="fas fa-book"></i> {{ entry.journalpaper }} </em>
+  {% endif %}
+  {% if entry.conferencepaper %}
+    <em style="color:#85b0ff"> &#160; <i class="fas fa-users"></i> {{ entry.conferencepaper }} </em>
+  {% endif %}
   {% if entry.bestp %}
 	<em class="Best Paper Award">
 	  <em style="color:#ff6666"> &#160; <i class="fas fa-trophy"></i> {{ entry.bestp }} </em>
