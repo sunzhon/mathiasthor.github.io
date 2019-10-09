@@ -2,8 +2,8 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications by categories in chronological order.
-years: [2019, 2018, 2017]
+description: Publications by categories in reverse chronological order.
+years: [2019, 2018, 2017, 2016]
 ---
 
 {% for y in page.years %}
