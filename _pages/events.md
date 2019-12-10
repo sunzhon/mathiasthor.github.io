@@ -5,7 +5,14 @@ title: Events
 description: Events related to me and my research.
 ---
 <h3 class="year">2019</h3>
-Something here...
+<h4 class="date">Radio interview - Denmarks Radio P1</h4>
+<h5 class="date">Nanjing University of Aeronautics and Astronautics, Nanjing, China • 15.10.2018</h5>
+
+Invited guest to the radio show "Så vidt vi ved" (as far as we know) on Denmarks Radio P1. The full radio broadcast can be heard [here](https://www.dr.dk/radio/p1/sa-vidt-vi-ved/sa-vidt-vi-ved-9){:target="_blank"}. The interview of me start at 00:43:55.
+
+<div class="img_row">
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/saavidtvived.jpeg" alt="" title="example image"/>
+</div>
 
 <h3 class="year">2018</h3>
 <h4 class="date">China-Denmark Bio-inspired Engineering seminar</h4>
@@ -31,7 +38,7 @@ Something here...
 <h5 class="date">Odense, Denmark • 11-13.09.2018</h5>
 
 <center>
-<video width="640" height="240" autoplay>
+<video width="640" height="240" controls>
   <source src="{{ site.baseurl }}/assets/img/me_speaking.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -39,5 +46,5 @@ Your browser does not support the video tag.
 
 Another small video segment from the exhibition can be seen [here](https://www.tv2fyn.dk/nyheder/12-09-2018/2225/2225-12-sep-2018?v=0_q9tjjqel&autoplay=1#player ){:target="_blank"}.
 
-<h3 class="year">2017</h3>
-Something here...
+<!-- <h3 class="year">2017</h3>
+Something here... -->
