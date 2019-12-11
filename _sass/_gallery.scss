@@ -39,3 +39,11 @@ figcaption {
     vertical-align: middle;
     font-size: $caption-font-size;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+}
