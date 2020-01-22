@@ -31,7 +31,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: News
+blog_name: Blog
 blog_description:
 
 # Pagination

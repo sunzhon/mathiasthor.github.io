@@ -147,20 +147,35 @@
 }
 
 @ARTICLE{thormaster,
-  title        = {MORF - Modular Robot Framework (Master Thesis)},
+  title        = {MORF - Modular Robot Framework},
   journal      = {University of Southern Denmark - Campusvej 55, 5230 Odense, Denmark},
   year         = {2019},
   address      = {Campusvej 55, 5230 Odense, Denmark},
   pdf	         = {MORF_master.pdf},
-  month        = {3}
+  month        = {3},
+  thesis       = {Master Thesis},
+  bestp	       = {Top grade}
 }
 
 @ARTICLE{bachelor,
   author       ={M. {Thor} and T. {Strøm-Hansen}},
-  title        = {Embodied control of a dung beetle inspired hexapod (Bachelor Thesis)},
+  title        = {Embodied control of a dung beetle inspired hexapod},
   journal      = {University of Southern Denmark - Campusvej 55, 5230 Odense, Denmark},
   year         = {2016},
   address      = {Campusvej 55, 5230 Odense, Denmark},
   pdf	         = {Bachelor.pdf},
-  month        = {6}
+  month        = {6},
+  thesis       = {Bachelor Thesis},
+  bestp	       = {Top grade}
+}
+
+@ARTICLE{CPGRBFNsub,
+  author={M. {Thor} and T. {Kulvicius} and P. {Manoonpong}},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  title={Generic Neural Locomotion Control Framework for Legged Robots},
+  year={2020},
+  keywords={Legged robots;Neurorobotics;Generic control;Locomotion control; Learning; Policy optimization},
+  abstract="In this paper, we present a generic locomotion control framework for legged robots and a strategy for control policy optimization. The framework is based on neural control and black-box optimization. The neural control combines a central pattern generator (CPG) and a radial basis function (RBF) network into a CPG-RBF network. The control network acts as a neural basis that can produce arbitrary rhythmic trajectories for the joints of robots. The main features of the CPG-RBF network are: 1) it is generic as it can be applied to legged robots with different morphologies; 2) it has few control parameters, resulting in fast learning; 3) it is scalable both in terms of policy/trajectory complexity and the number of legs that can be controlled using similar trajectories; 4) it does not rely on sensory feedback to generate locomotion and is thus less prone to sensory faults; 5) finally, once trained, it is simple, minimal, and intuitive to use and analyze. To the best of our knowledge, all these features have not been previously addressed by any other control frameworks or control techniques. These features will lead to an easy-to-use framework with fast convergence and the ability to encode complex locomotion control policies (or motor primitives) without the need for sensory feedback. In this work, we show that the framework can successfully be applied to three different simulated legged robots with varying morphologies and even broken joints to learn locomotion control policies. Furthermore, we show that after learning, the control policies can also be successfully transferred to a real-world robot without any modifications. Finally, we also show the scalability of the framework by implementing it as a central controller for all legs of a robot and as a decentralized controller for individual legs and leg pairs (i.e., front, hind, and middle legs). We call these indirect, direct, and semi-indirect encodings, respectively. By investigating the correlation between robot morphology and encoding type, we are also able to present a strategy for control policy optimization.",
+  notaccepted   = {Under Review},
+  journalpaper  = {Journal paper}
 }

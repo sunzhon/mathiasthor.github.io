@@ -85,14 +85,20 @@
     <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>
   {% endif %}
   {% if entry.journalpaper %}
-    <em style="color:#bb85ff"> &#160; <i class="fas fa-book"></i> {{ entry.journalpaper }} </em>
+    <em style="color:#17A589"> &#160; <i class="fas fa-book"></i> {{ entry.journalpaper }} </em>
   {% endif %}
   {% if entry.conferencepaper %}
-    <em style="color:#85b0ff"> &#160; <i class="fas fa-users"></i> {{ entry.conferencepaper }} </em>
+    <em style="color:#AF7AC5"> &#160; <i class="fas fa-users"></i> {{ entry.conferencepaper }} </em>
+  {% endif %}
+  {% if entry.thesis %}
+    <em style="color:#3498DB"> &#160; <i class="fas fa-graduation-cap"></i> {{ entry.thesis }} </em>
+  {% endif %}
+  {% if entry.notaccepted %}
+    <em style="color:#5D6D7E"> &#160; <i class="fas fa-seedling"></i> {{ entry.notaccepted }} </em>
   {% endif %}
   {% if entry.bestp %}
 	<em class="Best Paper Award">
-	  <em style="color:#ff6666"> &#160; <i class="fas fa-trophy"></i> {{ entry.bestp }} </em>
+	  <em style="color:#F39C12"> &#160; <i class="fas fa-trophy"></i> {{ entry.bestp }} </em>
 	</em>
   {% endif %}
   </span>
@@ -105,3 +111,6 @@
   {% endif %}
 
 </div>
+
+<!-- https://htmlcolorcodes.com/ -->
+<!-- https://fontawesome.com/icons/graduation-cap?style=solid -->
