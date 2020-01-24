@@ -1,7 +1,0 @@
----
-layout: page
-title: V-REP Getting started
-img: /assets/img/vrep.jpg
----
-
-To be written

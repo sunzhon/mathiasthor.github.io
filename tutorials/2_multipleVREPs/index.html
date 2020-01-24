@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Mathias Thor</title>
+  <title>Mathias Thor | Multiple V-REP instances</title>
   <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/tutorials/2_multipleVREPs/">
 </head>
 
 
@@ -88,24 +88,36 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>Blog</h1>
-  <h2></h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Multiple V-REP instances</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content Multiple V-REP instances clearfix">
+    <h2 id="1-download-v-rep">1) Download V-REP</h2>
+<p>Download V-REP from the official webpage <a href="http://www.coppeliarobotics.com/downloads.html" target="_blank">here</a>.
+This guide is verified to work with v.3.6.2 and Ubuntu 18.04.</p>
+
+<h2 id="2-extract">2) Extract</h2>
+<p>Extract the V-REP .zip file in the V-REP directory as many times as you need workers for your reinforcement learning algorithm (e.g., 4 times)</p>
+
+<h2 id="3-make-the-v-rep-directories-unique">3) Make the V-REP directories unique</h2>
+<p>Go to the extracted directories (feel free to rename these). In remoteApiConnections.txt change portIndex1_port to something unique so they are not the same for any V-REP instance (e.g., 19995, 19996, 19997, 19998). Make a new file in all the extracted directories called simulationID.txt and write a unique ID (e.g., 1, 2, 3, 4) (don’t use zero and don’t jump any numbers). The command for writing the ID’s are as follows:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">touch simulationID.txt
+<span class="nb">echo</span> <span class="s2">"1"</span> <span class="o">&gt;</span> simulationID.txt</code></pre></figure>
+
+<p>Finally, copy and replace  “libv_repExtRosInterface.so” from /home/mat/workspace/gorobots-mthor/utils/v-rep_simulations/v-rep_libs/reallib/libv_repExtRosInterface.so to the V-REP_# directory.</p>
+
+  </article>
+
+  
+
+  
+
 </div>
-
-
-<ul class="post-list">
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2019/images/">EliteForsk travel grant</a></h2>
-      <p class="post-meta">February 28, 2019 — 14:00</p>
-      <p>EliteForsk travel grant</p>
-    </li>
-  
-</ul>
-
-
-
 
       </div>
     </div>
